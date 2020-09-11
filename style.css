@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/************
+Basic
+************/
+body{
+    background-color: #FDFDFD;
+    font-family: 'Helvetica Neue', Calibri, sans-serif;
+    color: #444444;
+}
+h1,h3{
+    font-family: 'Bitter', Georgia, serif;
+	color: #FFFFFF;
+}
+h1{
+    font-size: 1.65em;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+/************
+Header 
+************/
+header.page-header{
+    height: auto;
+    padding: 15px 8% 70px 6%;
+    background-color: #444444;
+}
+.logo-keeper{
+    display: block;
+    width: 35%;
+    padding: 25px 20px 25px 0;
+}
+.input-keeper{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+label{
+    color: #FFFFFF;
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+input#name,
+input#password{
+    width: 99%;
+    padding: 4px 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+button#loginButton,
+button#logoutButton{
+    margin-top: 10px;
+    padding: 4px 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #000000;
+    font-weight: bold;
+    width: 50%;
+}
+/************
+Main
+************/
+.main{
+    padding: 50px 6% 60px 6%;
+    height: 200px;
+}
+/************
+Footer
+************/
+.footer{
+    padding: 30px 6% 40px 6%;
+    background-color: #444444;
+}
+.footer-info p{
+    font-family: 'Bitter', Georgia, serif;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2em;
+}
+@media screen and (min-width: 580px){
+h1{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.6em;
+}
+h3{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    font-size: 1.1em;
+}
+/************
+Header
+************/
+header.page-header{
+    padding: 15px 8% 150px 6%;
+}
+.logo-keeper{
+    float: left;
+    width: 35%;
+    padding: 25px 20px 0 0;
+}
+.input-keeper{
+    float: right;
+    height: auto;
+    width: 30%;
+}
+label{
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+input#name,
+input#password{
+    width: 100%;
+    padding: 4px 3px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+button#loginButton,
+button#logoutButton{
+    margin-top: 10px;
+    padding: 4px 4px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+    width: 50%;
+}
+/************
+Main
+************/
+.main{
+    padding: 50px 12% 60px 12%;
+    height: 400px;
+    clear: both;
+}
+/************
+Footer
+************/
+.footer-info p{
+    font-size: 0.8em;
+}
+}
