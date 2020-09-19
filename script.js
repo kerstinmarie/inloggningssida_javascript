@@ -81,7 +81,7 @@ let labelPassword = document.createElement("label");
     labelPassword.setAttribute("class", "password");
 let labelPasswordText = document.createTextNode("Lösenord:");
     labelPassword.appendChild(labelPasswordText);
-    inputPassword.setAttribute("type", "text");
+    inputPassword.setAttribute("type", "password");
     inputPassword.setAttribute("id", "password");
     inputPassword.setAttribute("name", "password");
     inputPassword.setAttribute("placeholder", " Fyll i ditt lösenord");
