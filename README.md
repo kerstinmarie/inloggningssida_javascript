@@ -17,7 +17,7 @@ Skapa en inloggningssida med JavaScript enligt kraven nedan.
 
 * Vid fel lösenord så skall användaren mötas av en ny sida som informerar om att det blivit fel.
 
-* Projektet skall enbart innehålla två stycken filer, index.html samt script.js och alla vyer skall ritas ut på index.html. (Det är frivilligt att använda en extern css fil, style.css men inga fler html filer).
+* Projektet skall enbart innehålla två stycken filer, index.html samt script.js och alla vyer skall ritas ut på index.html. Det är frivilligt att använda en extern css fil, style.css men inga fler html filer.
 
 * Det ska gå att spara inloggad användare i localStorage så att det går stänga ner webbsidan och fortfarande vara inloggad när användaren öppnar sidan igen.
 
